@@ -1,11 +1,14 @@
+# Hardware
+MacBook Air  M1 💻
+
 # Overview
-This project uses Mediapipe and PyTorch to build a hand gesture recognition model. It includes code for both model training and real-time gesture prediction. The program can recognize specific hand gestures and display them live on the screen.
+This project uses Mediapipe and PyTorch to build a hand gesture recognition model. It includes code for both model training and real-time gesture prediction.
+
 <img width="474" alt="스크린샷 2024-11-04 오후 5 19 25" src="https://github.com/user-attachments/assets/a4424ad7-b59e-46dd-8af3-eb2467164f72">
 
 
-Hardware: MacBook Air  M1 💻
 
-model architecture
+# model architecture
 
 ```python
 class CNNHandGestureModel(nn.Module):
